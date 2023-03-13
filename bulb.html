@@ -1,0 +1,36 @@
+<html>
+<head>
+        <link rel="stylesheet" href="bulb.css">
+</head>
+
+    <body>
+        <script>
+             function switched_off(){
+                document.getElementById("bulb_on").src="bulb_off.jpg";
+                document.getElementById("switched_off").style.backgroundColor="red";
+                document.getElementById("switched_on").style.backgroundColor="#85adad"
+                document.getElementById("switched_off").style.color="white";
+                document.getElementById("switched_on").style.color="white";
+
+
+             }
+             function switched_on(){
+                document.getElementById("bulb_on").src="bulb_on.jpg";
+                document.getElementById("switched_on").style.backgroundColor="green";
+                document.getElementById("switched_off").style.backgroundColor="#85adad";
+                document.getElementById("switched_off").style.color="white";
+                document.getElementById("switched_on").style.color="white";
+             }
+
+        </script>
+        <div class="div-content">
+                <img id="bulb_on" src="bulb_on.jpg">
+                
+                <div style="background-color:lightblue; width: 350px; height:200px;" class="sub-content "  >
+                        <!-- <div class="div-content" style="text-align: center; padding-top: 50px;"> -->
+                                <button id="switched_off" class="button" onclick="switched_off()">OFF</button>
+                                <button  id="switched_on" class="button" onclick="switched_on()" >ON</button>
+                        <!-- </div> -->
+                </div>
+        </div>
+        </body>

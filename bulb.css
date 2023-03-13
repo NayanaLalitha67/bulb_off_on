@@ -1,0 +1,25 @@
+img{
+    width:200px;
+    height:200px;
+    margin: auto;
+    margin-left: 50px;
+}
+button{
+    width:60px; 
+    height:40px;
+    border-radius: 5px;
+    border-color: blue;
+}
+.div-content{
+    margin: auto;
+    max-width: 500px; 
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+.sub-content{
+    padding-top:100px;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px; 
+}
